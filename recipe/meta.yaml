@@ -10,7 +10,7 @@ source:
   sha256: f0ba49cb75b105d5f9e790e0cae5361bc16bb0efae75abf904a8c911861506a6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -20,10 +20,10 @@ requirements:
     - pip
     - nodejs
     - jupyter-packaging
-    - jupyterlab >=3.0.0rc0
+    - jupyterlab >=3.0.0rc4
   run:
     - python >=3.6
-    - jupyterlab >=3.0.0rc0
+    - jupyterlab >=3.0.0rc4
 
 test:
   commands:
