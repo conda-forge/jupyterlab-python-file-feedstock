@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-python-file" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f0ba49cb75b105d5f9e790e0cae5361bc16bb0efae75abf904a8c911861506a6
+  sha256: 27dd214bb63087fbdfa83d4a5286292325394c6a3cd1d7ee7ec9ace36510abc7
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
