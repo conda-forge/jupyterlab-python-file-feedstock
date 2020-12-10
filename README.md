@@ -5,9 +5,11 @@ Home: https://github.com/jtpio/jupyterlab-python-file
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-python-file-feedstock/blob/master/LICENSE.txt)
 
 Summary: Create Python Files from JupyterLab
+
+Development: https://github.com/jtpio/jupyterlab-python-file
 
 Create Python Files from JupyterLab
 
